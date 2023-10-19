@@ -1,0 +1,45 @@
+/* App.css */
+.App {
+  background-color: #f2f2f2; /* Light gray background */
+  color: #333; /* Dark text color */
+  padding: 20px;
+}
+
+.user-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.user-image {
+  text-align: center;
+  color: #333; /* Dark text color */
+  background-color: #fff; /* White background */
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: background-color 0.3s; /* Smooth color transition */
+}
+
+.user-image:hover {
+  background-color: #ffc107; /* Highlight color on hover */
+  color: #333; /* Dark text color on hover */
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: #fff; /* White background */
+}
+
+table, th, td {
+  border: 1px solid #ccc; /* Light border */
+}
+
+th, td {
+  padding: 10px; /* Increase padding */
+  text-align: center; /* Center align text in table cells */
+}
